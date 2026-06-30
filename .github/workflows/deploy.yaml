@@ -1,4 +1,4 @@
-name: Deploy Worker
+name: discord-bot
 
 on:
   push:
