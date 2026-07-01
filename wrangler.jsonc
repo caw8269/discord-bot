@@ -5,7 +5,7 @@
 {
 	"$schema": "node_modules/wrangler/config-schema.json",
 	"name": "discord-bot",
-	"main": "src/index.js",
+	"main": "src/server.js",
 	"compatibility_date": "2026-06-29",
 	"observability": {
 		"enabled": true

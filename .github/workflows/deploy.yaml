@@ -31,5 +31,9 @@ jobs:
           CF_API_TOKEN: ${{ secrets.CF_API_TOKEN }}
           CF_ACCOUNT_ID: ${{ secrets.CF_ACCOUNT_ID }}
           DISCORD_PUBLIC_KEY: ${{ secrets.DISCORD_PUBLIC_KEY }}
+          DISCORD_BOT_TOKEN: ${{ secrets.DISCORD_BOT_TOKEN }}
+          DISCORD_APP_ID: ${{ secrets.DISCORD_APP_ID }}
         run: |
           npx wrangler secret put DISCORD_PUBLIC_KEY
+          npx wrangler secret put DISCORD_BOT_TOKEN
+          npx wrangler secret put DISCORD_APP_ID~
